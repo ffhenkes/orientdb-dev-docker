@@ -9,7 +9,7 @@ ENV ORIENTDB_ROOT_PASSWORD demo
 ## Only use enterprise for development and test purposes
 ADD orientdb-enterprise-2.0.6.tar.gz /usr/local/
 RUN cd /usr/local/ && \
-	mv -f orientdb-* orientdb && \
+    mv -f orientdb-* orientdb && \
     ln -s ${PWD}/orientdb/bin/* /usr/bin/
 
 VOLUME ["/usr/local/orientdb/log", "/usr/local/orientdb/databases"]
