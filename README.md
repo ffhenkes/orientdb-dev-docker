@@ -3,7 +3,7 @@ OrientDB enterprise Dockerfile for development purposes.
 
 ### Build
 
-First download the desired orientdb version tar package.
+First download the desired orientdb version tar package, to the same Dockerfile local directory..
 
 then..
 ```
