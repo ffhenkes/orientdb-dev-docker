@@ -18,3 +18,14 @@ $ docker run -d -p 2424:2424 -p 2428:2428  --name orient webverse/orientdb-dev-d
 Alternatively you can use volumes:
 
 `-v /your/path/here/:/docker/mapped/volumes/here`
+
+### Browse
+
+http://localhost:2428
+
+### Docker exec to console
+
+```
+$ docker exec -i orientdb console.sh
+```
+
